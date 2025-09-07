@@ -1,8 +1,16 @@
 @import "tailwindcss";
 
+
 @font-face {
   font-family: 'Gistesy';
-  src: local('Gistesy'), url('/src/assets/font/Gistesy.ttf') format('opentype');
+  src: local('Gistesy'), url('/src/assets/font/Gistesy.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Century Gothic';
+  src: local('Century Gothic'), url('/src/assets/font/centurygothic.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
 }
@@ -11,3 +19,6 @@
   font-family: 'Gistesy', sans-serif;
 }
 
+.century-gothic-font {
+  font-family: 'Century Gothic', sans-serif;
+}

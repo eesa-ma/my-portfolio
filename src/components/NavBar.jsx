@@ -24,7 +24,7 @@ function NavBar() {
     return (
         <>
             <header>
-                <div className="flex justify-around items-end text-teal-950 bg-[#f9f8f3]">
+                <div className="flex justify-around items-end text-teal-950 bg-[#f9f8f3] century-gothic-font">
                     <a href="#" className="gistesy-font text-6xl">eesa</a>
                     <nav className="hidden md:flex gap-10 pb-2 ">
                         {navLinks.map((navLink, _) => <a href={navLink.href} key={navLink.label} className="hover:text-teal-700 hover:underline">

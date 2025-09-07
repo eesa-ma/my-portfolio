@@ -2,7 +2,7 @@
 function About() {
     return (
         <>
-            <div className="m-10 space-y-10">
+            <div className="m-10 space-y-10 century-gothic-font">
                 <h1 className="text-center text-teal-950 text-5xl  md:text-7xl font-bold">About Me</h1>
                 <div className="flex flex-col md:flex-row gap-10">
                     <div className="flex-1/3 rounded-2xl bg-gradient-to-l from-teal-400 via-teal-700 to-teal-950 p-[2px] md:pb-0 ">
