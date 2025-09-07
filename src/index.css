@@ -2,7 +2,7 @@
 
 @font-face {
   font-family: 'Gistesy';
-  src: local('Gistesy'), url('/src/assets/font/gistesy/Gistesy.ttf') format('opentype');
+  src: local('Gistesy'), url('/src/assets/font/Gistesy.ttf') format('opentype');
   font-weight: normal;
   font-style: normal;
 }
@@ -10,3 +10,4 @@
 .gistesy-font {
   font-family: 'Gistesy', sans-serif;
 }
+
