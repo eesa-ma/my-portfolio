@@ -1,4 +1,4 @@
-import eesaPhoto from '/src/assets/eesa_.png';
+import eesaPhoto from '../assets/eesa_.png';
 
 function About() {
     return (
@@ -7,7 +7,7 @@ function About() {
                 <h1 className="text-center text-teal-950 text-5xl  md:text-7xl font-bold">About Me</h1>
                 <div className="flex flex-col md:flex-row gap-10">
                     <div className="flex-1/3 rounded-2xl bg-gradient-to-l from-teal-400 via-teal-700 to-teal-950 p-[2px] md:pb-0 ">
-                        <img src="{eesaPhoto}" alt="eesa-photo" className="w-100 rounded-2xl bg-neutral-50 " />
+                        <img src={eesaPhoto} alt="eesa-photo" className="w-100 rounded-2xl bg-neutral-50 " />
                     </div>
                     <div className="flex-2/3 flex flex-col gap-5 text-teal-700">
                         <p>I'm <span className="font-medium text-teal-950">Eesa M A</span>, a passionate <span className="font-medium">Frontend Developer</span> with a strong foundation in building robust, scalable applications.My journey in <span  className="font-medium text-teal-950">web development</span> has been driven by a deep curiosity for <span className="font-medium text-teal-950">solving complex problems and creating efficient systems</span>.</p>
