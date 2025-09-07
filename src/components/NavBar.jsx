@@ -4,13 +4,17 @@ function NavBar() {
 
     const navLinks = [
         {
+            href: '#', label: 'Home'
+            
+        },
+        {
             href: '#', label: 'About'
         },
         {
             href: '#', label: 'Projects'
         },
         {
-            href: '#', label: 'Resume'
+            href: '/src/assets/reume.pdf', label: 'Resume'
         },
         {
             href: '#', label: 'Experience'
@@ -31,6 +35,7 @@ function NavBar() {
                         <a href="#" className="pb-2">+91 9072341909</a>
                         <IoMdCall />
                     </div>
+                    
                 </div>
             </header>
         </>
