@@ -1,6 +1,5 @@
 
 function Home() {
-    // <div className="bg-[#18181B] min-h-screen flex flex-col justify-center items-start px-80 w-full">
 
     return (
         
@@ -22,25 +21,3 @@ function Home() {
 
 export default Home;
 
-
-
-
-
-
-// export default function Home(){
-
-//     return(
-//         <div className="flex  justify-center items-center">
-//             <div className="">
-
-//                 <p className="text-[#64ffda] text-lg py-2">Hi, my name is </p>
-//                 <p className="text-5xl md:text-7xl  py-2">Harishankar c.</p>
-//                 <p className="text-5xl md:text-7xl text-[#8892b0] py-2">Full Stack Developer.</p>
-//                 <p className="text-[#8892b0] text-lg py-1">I'm a full stack developer specializing in building and </p>
-//                 <p className="text-[#8892b0] text-lg py-1">designing exeptional web appliactions. Currently, I'm focused on </p>
-//                 <p className="text-[#8892b0] text-lg py-1">building user-friendly, efficent <a href="" className="text-[#64ffda]">projects</a>.</p>
-                
-//             </div>
-//         </div> 
-//     );
-// }
