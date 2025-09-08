@@ -38,7 +38,7 @@ function NavBar() {
                         </a>)}
                     </nav>
                     <div className="flex items-baseline">
-                        <a href="https://wa.me/qr/45KNTXBQPBUOG1" target="_blank" rel="noopener noreferrer" className="pb-2 hover:text-teal-700 hover:underline">+91 9072341909</a>
+                        <a href="#" className="pb-2 hover:text-teal-700 hover:underline">Contact Me</a>
                         <IoMdCall />
                     </div>
                     

@@ -23,7 +23,7 @@ function Projects() {
  return (
         <section id="projects" className="py-16 px-4 sm:px-8 bg-[#f9f8f3] century-gothic-font">
             <div className="max-w-6xl mx-auto">
-                <h1 className='text-center text-teal-950 text-4xl md:text-5xl font-bold mb-12'>My Projects</h1>
+                <h1 className='text-center text-teal-950 text-5xl md:text-7xl font-bold mb-12'>My Projects</h1>
                 <div className='grid grid-cols-1 md:grid-cols-2 gap-10'>
                     {projects.map((project) => (
                         <div key={project.title} className='bg-white rounded-lg shadow-xl hover:shadow-2xl overflow-hidden group hover:scale-105 transition-transform duration-300'>
