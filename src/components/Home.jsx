@@ -1,3 +1,4 @@
+import resumePdf from '../assets/reume.pdf'
 
 function Home() {
 
@@ -12,7 +13,7 @@ function Home() {
                     <p className="text-lg text-teal-700">With a passion for clean code and elegant design, I am a Frontend Developer</p>
                     <p className="text-lg text-teal-700">who brings ideas to life. I focus on engineering exceptional web applications</p>
                     <p className="text-lg text-teal-700">that are both highly functional and visually engaging.</p>
-                    <a href="/src/assets/reume.pdf" target="_blank" rel="noopener noreferrer"><button className=" p-4 bg-gradient-to-l from-teal-200 via-teal-500 to-teal-950 rounded text-teal-50 text-lg">Check Out My Resume</button> </a>
+                    <a href={resumePdf} target="_blank" rel="noopener noreferrer"><button className=" p-4 bg-gradient-to-l from-teal-200 via-teal-500 to-teal-950 rounded text-teal-50 text-lg">Check Out My Resume</button> </a>
                </div>
             </div>
         </>

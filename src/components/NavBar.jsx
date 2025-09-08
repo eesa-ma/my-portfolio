@@ -1,4 +1,6 @@
 import { IoMdCall } from "react-icons/io";
+import resumePdf from '../assets/reume.pdf'
+
 
 function NavBar() {
 
@@ -14,7 +16,7 @@ function NavBar() {
             href: '#', label: 'Projects'
         },
         {
-            href: '/src/assets/reume.pdf', label: 'Resume'
+            href: resumePdf, label: 'Resume'
         },
         {
             href: '#', label: 'Experience'
