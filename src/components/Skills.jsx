@@ -29,9 +29,7 @@ function Skills() {
             <div className="bg-[#f9f8f3] p-20 space-y-10 century-gothic-font">
                 <h1 className='text-center text-teal-950 text-5xl md:text-7xl font-bold'>My Skills</h1>
                 <div className="grid grid-cols- md:grid-cols-3 lg:grid-cols-5 gap-8">
-    
-                {skills.map((skill, index) => (
-                    
+                {skills.map((skill, index) => ( 
                     <div key={index} className="flex flex-col items-center justify-center pt-6 pb-6  shadow-lg rounded-lg bg-neutral-50 hover:scale-105 transition-transform duration-300">
                         <div className="text-6xl text-teal-700">
                             <img src={skill.img} alt="logo" />
