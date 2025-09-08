@@ -5,7 +5,7 @@ function Home() {
     return (
         
         <>
-            <div className="pt-10 pb-10 md:pb-0 md:pt-0 md:h-[90vh] min-h-[80vh] flex justify-center items-center bg-[#f9f8f3] px-20 md:px-40 century-gothic-font">
+            <div id='home' className="pt-10 pb-10 md:pb-0 md:pt-0 md:h-[90vh] min-h-[80vh] flex justify-center items-center bg-[#f9f8f3] px-20 md:px-40 century-gothic-font">
                <div className="space-y-2">
                     <p className="text-teal-400 text-lg">Hi,my name is</p>
                     <p className="text-teal-950 text-5xl md:text-7xl font-semibold">EESA M A</p>

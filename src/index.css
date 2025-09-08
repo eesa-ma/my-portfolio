@@ -22,3 +22,7 @@
 .century-gothic-font {
   font-family: 'Century Gothic', sans-serif;
 }
+
+html {
+  scroll-behavior: smooth;
+}

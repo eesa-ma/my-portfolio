@@ -1,28 +1,29 @@
 import { IoMdCall } from "react-icons/io";
-import resumePdf from '../assets/reume.pdf'
+import resumePdf from '../assets/reume.pdf';
+
 
 
 function NavBar() {
 
     const navLinks = [
         {
-            href: '#', label: 'Home'
+            href: '#home', label: 'Home'
             
         },
         {
-            href: '#', label: 'About'
+            href: '#about', label: 'About'
         },
         {
-            href: '#', label: 'Projects'
+            href: '#projects', label: 'Projects'
         },
         {
-            href: '#', label: 'Skills'
+            href: '#skills', label: 'Skills'
         },
         {
             href: resumePdf, label: 'Resume'
         },
         {
-            href: '#', label: 'Experience'
+            href: '#experience', label: 'Experience'
         },
     ];
 
@@ -37,7 +38,7 @@ function NavBar() {
                         </a>)}
                     </nav>
                     <div className="flex items-baseline">
-                        <a href="#" className="pb-2">+91 9072341909</a>
+                        <a href="https://wa.me/qr/45KNTXBQPBUOG1" target="_blank" rel="noopener noreferrer" className="pb-2 hover:text-teal-700 hover:underline">+91 9072341909</a>
                         <IoMdCall />
                     </div>
                     
