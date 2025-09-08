@@ -3,7 +3,7 @@ import eesaPhoto from '../assets/eesa_.png';
 function About() {
     return (
         <>
-            <div className="p-20 space-y-10 century-gothic-font">
+            <div className="p-10 space-y-10 century-gothic-font">
                 <h1 className="text-center text-teal-950 text-5xl md:text-7xl font-bold">About Me</h1>
                 <div className="flex flex-col md:flex-row items-center justify-center gap-10 md:gap-20 lg:text-xl">
 
