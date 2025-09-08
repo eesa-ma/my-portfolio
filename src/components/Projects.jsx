@@ -21,32 +21,18 @@ function Projects() {
 
     ];
  return (
-        <section className="py-16 px-4 sm:px-8 bg-gray-50">
+        <section className="py-16 px-4 sm:px-8 bg-[#f9f8f3] century-gothic-font">
             <div className="max-w-6xl mx-auto">
                 <h1 className='text-center text-teal-950 text-4xl md:text-5xl font-bold mb-12'>My Projects</h1>
                 <div className='grid grid-cols-1 md:grid-cols-2 gap-10'>
                     {projects.map((project) => (
-                        <div key={project.title} className='bg-white rounded-lg shadow-xl hover:shadow-2xl transition-shadow duration-300 overflow-hidden group'>
+                        <div key={project.title} className='bg-white rounded-lg shadow-xl hover:shadow-2xl overflow-hidden group hover:scale-105 transition-transform duration-300'>
                             <div className="relative">
                                 <img src={project.img} alt={project.title} className='w-full h-56 object-cover' />
                                 <div className="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
                                     <div className="flex space-x-4">
-                                        <a
-                                            href={project.live}
-                                            target="_blank"
-                                            rel="noopener noreferrer"
-                                            className="bg-teal-500 text-white py-2 px-4 rounded-md hover:bg-teal-600 transition-colors"
-                                        >
-                                            Live Site
-                                        </a>
-                                        <a
-                                            href={project.repo}
-                                            target="_blank"
-                                            rel="noopener noreferrer"
-                                            className="bg-gray-700 text-white py-2 px-4 rounded-md hover:bg-gray-800 transition-colors"
-                                        >
-                                            GitHub
-                                        </a>
+                                        <a href={project.live} target="_blank" rel="noopener noreferrer" className="bg-teal-500 text-white py-2 px-4 rounded-md hover:bg-teal-600 transition-colors"> Live Site </a>
+                                        <a href={project.repo} target="_blank" rel="noopener noreferrer" className="bg-gray-700 text-white py-2 px-4 rounded-md hover:bg-gray-800 transition-colors" >GitHub </a>
                                     </div>
                                 </div>
                             </div>

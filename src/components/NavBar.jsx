@@ -13,10 +13,10 @@ function NavBar() {
             href: '#', label: 'About'
         },
         {
-            href: '#', label: 'Skills'
+            href: '#', label: 'Projects'
         },
         {
-            href: '#', label: 'Projects'
+            href: '#', label: 'Skills'
         },
         {
             href: resumePdf, label: 'Resume'
