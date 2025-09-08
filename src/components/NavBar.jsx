@@ -38,7 +38,7 @@ function NavBar() {
                         </a>)}
                     </nav>
                     <div className="flex items-baseline">
-                        <a href="#" className="pb-2 hover:text-teal-700 hover:underline">Contact Me</a>
+                        <a href="#contact" className="pb-2 hover:text-teal-700 hover:underline">Contact Me</a>
                         <IoMdCall />
                     </div>
                     

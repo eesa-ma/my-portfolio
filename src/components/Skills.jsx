@@ -34,7 +34,7 @@ function Skills() {
                         <div className="text-6xl text-teal-700">
                             <img src={skill.img} alt="logo" />
                         </div>
-                        <p className="mt-4 text-xl font-semibold text-teal-950">
+                        <p className="mt-4 text-xl font-semibold text-teal-900">
                             {skill.title}
                         </p>
                     </div>
