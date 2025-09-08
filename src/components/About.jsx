@@ -3,13 +3,13 @@ import eesaPhoto from '../assets/eesa_.png';
 function About() {
     return (
         <>
-            <div className="m-20 space-y-10 century-gothic-font">
+            <div className="p-20 space-y-10 century-gothic-font">
                 <h1 className="text-center text-teal-950 text-5xl md:text-7xl font-bold">About Me</h1>
                 <div className="flex flex-col md:flex-row items-center justify-center gap-10 md:gap-20 lg:text-xl">
 
                     <div className="w-full max-w-xs md:w-1/2  flex-shrink-0  rounded-2xl bg-gradient-to-l from-teal-400 via-teal-700 to-teal-950 p-[2px]">
 
-                        <img src={eesaPhoto} alt="eesa-photo" className="w-full h-full object-cover rounded-2xl bg-neutral-50" />
+                        <img src={eesaPhoto} alt="eesa-photo" className="w-full h-full object-cover rounded-2xl bg-neutral-50 hover:scale-105 transition-transform duration-300" />
                     </div>
 
                     <div className="md:w-1/2 flex flex-col gap-5 text-teal-700">
