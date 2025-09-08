@@ -18,7 +18,7 @@ function Skills() {
         { img: reactIcon, title: 'REACT' },
         { img: gitIcon, title: 'GIT' },
         { img: githubIcon, title: 'GITHUB' },
-        { img: cppIcon, title: 'CPP' },
+        { img: cppIcon, title: 'C++' },
         { img: phpIcon, title: 'PHP' },
         { img: pythonIcon, title: 'PYTHON' },
         { img: cIcon, title: 'C' },
