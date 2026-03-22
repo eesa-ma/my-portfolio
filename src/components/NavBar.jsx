@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import { IoMdCall } from "react-icons/io";
 import { FaBars, FaTimes } from "react-icons/fa";
-import resumePdf from '../assets/reume.pdf';
+import resumePdf from '../assets/eesa_ma.pdf';
 
 function NavBar() {
     const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -64,7 +64,7 @@ function NavBar() {
                         </a>
                     </nav>
                 )}
-            </div>
+            </div>  
         </header>
     );
 }

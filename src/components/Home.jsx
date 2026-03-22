@@ -1,4 +1,4 @@
-import resumePdf from '../assets/reume.pdf'
+import resumePdf from '../assets/eesa_ma.pdf'
 
 function Home() {
 
